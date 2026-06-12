@@ -1,8 +1,8 @@
 [app]
-title = 我的小程序
+title = 工具
 package.version = 1.0
-package.name = myapp
-package.domain = org.myapp
+package.name = toolapp
+package.domain = com.tool.app
 
 source.dir = .
 source.include_exts = py,png,jpg,jpeg,kv,atlas
