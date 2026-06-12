@@ -1,21 +1,23 @@
 [app]
+# 应用显示名称
+title = MyPythonApp
+# 版本号
+package.version = 0.1
+# 包标识（随便填，唯一即可）
+package.name = mypyapp
+package.domain = org.mypy.app
 
-# 包名，随便改
-package.name = myapp
-package.domain = org.myapp
-
+# 源码目录，根目录就是 .
 source.dir = .
 source.include_exts = py,png,jpg,jpeg,kv,atlas
 
-# 启动入口
+# 入口文件
 main.py = main
 
+# 依赖库
 requirements = python3,kivy
 
-# 关闭不需要的功能
-android.permissions = INTERNET
+# Android 配置
 android.api = 33
 android.ndk = 25c
-
-# 关闭无用配置
-# 删掉所有 app.android.sdk=xxx
+android.permissions = INTERNET
